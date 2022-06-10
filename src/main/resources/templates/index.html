@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${view.title}"></title>
+</head>
+<body>
+    <div style="height: 100vh; position: relative;">
+        <img th:src="${view.url}" th:width="${view.width}" th:height="${view.height}" th:alt="${view.title} + ' image'"
+             style="margin: auto; position: absolute; left: 0; top: 0; bottom: 0; right: 0;"/>
+    </div>
+</body>
+</html>
