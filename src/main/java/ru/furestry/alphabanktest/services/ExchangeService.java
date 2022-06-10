@@ -68,7 +68,7 @@ public class ExchangeService {
      * Method to get the current value of the specified currency
      *
      * @param symbol the currency to get the rate for
-     * @return a double value of current rate for the specified currency
+     * @return a current rate for the specified currency
      */
     private double getTodayExchangeRate(String symbol) {
         try {
@@ -84,7 +84,7 @@ public class ExchangeService {
      * Method to get yesterday's value of the specified currency
      *
      * @param symbol the currency to get the rate for
-     * @return a double value of yesterday's rate for the specified currency
+     * @return a yesterday's rate for the specified currency
      */
     private double getYesterdayExchangeRate(String symbol) {
         LocalDate tomorrow = LocalDate.now().minusDays(1L);
