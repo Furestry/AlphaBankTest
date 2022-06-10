@@ -23,8 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ActiveProfiles("test")
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = TestConfig.class)
-@TestPropertySource(
-        locations = "classpath:application.properties")
+@TestPropertySource(locations = "classpath:application.properties")
 class CurrencyControllerTest {
     @Autowired
     private MainController controller;
