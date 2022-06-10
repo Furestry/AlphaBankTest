@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * Feign Client for working with {@link <a href="https://docs.openexchangerates.org/docs">openexchangerates API</a>}
+ * Feign Client for working with <a href="https://docs.openexchangerates.org/docs">openexchangerates API</a>
  *
  * @author Sevler
  */

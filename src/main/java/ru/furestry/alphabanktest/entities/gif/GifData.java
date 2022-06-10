@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.Map;
 
 /**
- * A class that presents the {@link <a href="https://developers.giphy.com/docs/api/schema/#gif-object">gif object</a>}
+ * A class that presents the <a href="https://developers.giphy.com/docs/api/schema/#gif-object">gif object</a>
  *
  * @author Sevler
  */

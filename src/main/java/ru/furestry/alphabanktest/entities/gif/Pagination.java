@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 /**
- * A class that presents the {@link <a href="https://developers.giphy.com/docs/api/schema/#pagination-object">pagination object</a>}
+ * A class that presents the <a href="https://developers.giphy.com/docs/api/schema/#pagination-object">pagination object</a>
  *
  * @author Sevler
  */
