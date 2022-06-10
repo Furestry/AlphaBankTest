@@ -2,7 +2,6 @@ package ru.furestry.alphabanktest.services;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.json.JsonMapper;
-import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;
 import ru.furestry.alphabanktest.clients.GifClient;
 import ru.furestry.alphabanktest.entities.gif.Gif;
@@ -39,7 +38,6 @@ public class GifService {
      * @param query the query to get the gif for
      * @return a map with the gif data
      */
-    @Nullable
     public Map<String, Object> getGif(String query) {
         int offset = (int) (Math.random() * 5000);
 
