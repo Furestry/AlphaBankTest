@@ -23,7 +23,7 @@ public class Config {
     /**
      * Bean for openexchangerates API key
      *
-     * @return
+     * @return String openexchangerates API key
      */
     @Bean(name = "openexchangeKey")
     public String getOpenexchangeKey() {
@@ -33,7 +33,7 @@ public class Config {
     /**
      * Bean for giphy API key
      *
-     * @return
+     * @return String giphy API key
      */
     @Bean(name = "giphyKey")
     public String getGiphyKey() {
@@ -43,7 +43,7 @@ public class Config {
     /**
      * Bean for openexchangerates base currency
      *
-     * @return
+     * @return String base currency
      */
     @Bean(name = "currency")
     public String getCurrency() {
